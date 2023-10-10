@@ -23,7 +23,10 @@ export default function Register({ setShowRegister }) {
     };
 
     try {
-      await axios.post("/users/register", newUser);
+      await axios.post(
+        "https://travel-map-backend-pi.vercel.app/users/register",
+        newUser
+      );
       setError(false);
       setSuccess(true);
     } catch (err) {

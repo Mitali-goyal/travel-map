@@ -18,7 +18,10 @@ export default function Login({ setShowLogin, setCurrentUsername, myStorage }) {
       password: passwordRef.current.value,
     };
     try {
-      const res = await axios.post("/users/login", user);
+      const res = await axios.post(
+        "https://travel-map-backend-pi.vercel.app/api/users/login",
+        user
+      );
       setCurrentUsername(res.data.username);
       myStorage.setItem("user", res.data.username);
       setShowLogin(false);
