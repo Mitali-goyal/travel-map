@@ -33,8 +33,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 
 <!-- ABOUT THE PROJECT -->
@@ -48,21 +46,15 @@ The users can pin their favourite locations on the map to which the users can ra
 Here are some of the basis functions:
 
 - Register
-<p align="center"><img src="images/register.png" alt="Logo" width="70%"></p>
 
 - Login
-<p align="center"><img src="images/login.png" alt="Logo" width="70%"></p>
 
 - Pin a location
-<p align="center"><img src="images/home-screen.png" alt="Logo" width="70%"></p>
 
 - Review & Rating
-<p align="center"><img src="images/review.png" alt="Logo" width="70%"></p>
 
 - Preview all locations on the map
-<p align="center"><img src="images/allpins.png" alt="Logo" width="70%"></p>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
